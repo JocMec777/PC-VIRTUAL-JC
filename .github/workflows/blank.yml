@@ -1,0 +1,16 @@
+
+name: Otimizar tarefas
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  otimizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preparar ambiente
+        run: |
+          echo "Ambiente preparado!"
+          echo "Tarefas concluídas."
